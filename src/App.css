@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  height: 100vh; /* Magic here */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+    display: flex;
+    border: solid;
+    border-width: 0px;
+}
+
+.main-table {
+    margin: 1em;
+    display: inline-block;
+}
+
+.ticblock {
+    padding: 9px;
+    border: solid;
+    border-width: 0.5px;
+    background: beige;
+    width: 10em;
+    height: 10em;
+}
+
+img {
+    max-height:100%;
+    max-width:100%
+}
+
+.table{
+    background:#E0FFFF;
+    width: 250px;
+    height: 100px;
+     margin: auto;
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .table th{
+    text-align: center;
+    background:#E0FFFF;
+  border-bottom: 1px solid black;
+   
+      
+  }
+  .table td{
+    text-align: center;
+    background:#E0FFFF;
+  
+  }
