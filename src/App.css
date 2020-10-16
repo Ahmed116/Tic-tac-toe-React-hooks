@@ -4,51 +4,110 @@
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .row {
-    display: flex;
-    border: solid;
-    border-width: 0px;
+  display: flex;
+  border: solid;
+  border-width: 0px;
 }
 
 .main-table {
-    margin: 1em;
-    display: inline-block;
+  margin: 1em;
+  display: inline-block;
+  justify-content: center;
 }
 
 .ticblock {
-    padding: 9px;
-    border: solid;
-    border-width: 0.5px;
-    background: beige;
-    width: 10em;
-    height: 10em;
+  padding: 9px;
+  border: solid;
+  border-width: 0.5px;
+  background: rgb(191, 209, 221);
+  width: 10em;
+  height: 10em;
 }
 
 img {
-    max-height:100%;
-    max-width:100%
+  max-height: 100%;
+  max-width: 100%;
 }
 
-.table{
-    background:#E0FFFF;
-    width: 250px;
-    height: 100px;
-     margin: auto;
-    margin-bottom: 20px;
-    font-size: 1rem;
-  }
-  
-  .table th{
-    text-align: center;
-    background:#E0FFFF;
+.table {
+  background: #40a0a0;
+  width: 250px;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #050447;
+}
+
+.table th {
+  text-align: center;
+  background: #e0ffff;
   border-bottom: 1px solid black;
-   
-      
-  }
-  .table td{
-    text-align: center;
-    background:#E0FFFF;
-  
-  }
+}
+.table td {
+  text-align: center;
+  background: #e0ffff;
+}
+.h1 {
+  text-align: center;
+  margin: 1em 0 0.5em 0;
+  color: #343434;
+  font-weight: normal;
+  font-family: 'Ultra', sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  text-transform: uppercase;
+  text-shadow: 0 2px white, 0 3px #777;
+}
+
+.addBtn {
+  text-align: center;
+}
+.playerbtn {
+  display: inline-block;
+  background-color: #53a0d3;
+  border-radius: 5px;
+  border: 3px solid #050447;
+  cursor: pointer;
+  color: #020000;
+  font-family: Arial;
+  font-size: 17px;
+  width: 30%;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.playerbtn:hover {
+  background-color: rgb(145, 216, 198);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.lastBtn {
+  text-align: center;
+}
+
+.again {
+  display: inline-block;
+  background-color: #53a0d3;
+  border-radius: 5px;
+  border: 3px solid #050447;
+  cursor: pointer;
+  color: #020000;
+  font-family: Arial;
+  font-size: 17px;
+  width: 30%;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+.again:hover {
+  background-color: rgb(145, 216, 198);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
